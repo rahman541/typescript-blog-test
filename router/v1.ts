@@ -9,5 +9,5 @@ export default (app) => {
   apiRoutes.use('/posts', postRoutes)
   postRoutes.get('/', getAllPosts)
 
-  apiRoutes.use('api', apiRoutes)
+  app.use('/api', apiRoutes)
 }
