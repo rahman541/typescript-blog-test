@@ -1,0 +1,14 @@
+{
+  "compilserOptions": {
+    "outdir": "./build",
+    "target": "es5",
+    "module": "commonjs"
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build/**/*"
+  ]
+}
