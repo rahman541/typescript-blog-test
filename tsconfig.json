@@ -1,14 +1,15 @@
 {
-  "compilserOptions": {
-    "outdir": "./build",
+  "compilerOptions": {
+    "outDir": "./build",
     "target": "es5",
+    "sourceMap": true,
     "module": "commonjs"
   },
   "include": [
     "./**/*"
   ],
   "exclude": [
-    "node_modules",
-    "build/**/*"
+    "node_modules/",
+    "build/"
   ]
 }
